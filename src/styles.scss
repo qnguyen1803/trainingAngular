@@ -1,0 +1,9 @@
+@import 'sass/config/variables';
+
+body, html {
+	background-color: $bg-color;
+}
+
+h1{
+	color: $h1-color;
+}
