@@ -1,7 +1,10 @@
-@import 'sass/config/variables';
+@import '~bourbon/core/bourbon';
+@import 'sass/config/config';
+@import 'sass/fonts/fonts';
 
 body, html {
 	background-color: $bg-color;
+	font-family: $krub-font;
 }
 
 h1{
