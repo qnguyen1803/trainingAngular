@@ -1,14 +1,13 @@
-@import 'sass/config/config';
 @import '~bourbon/core/bourbon';
+@import 'sass/config/config';
+@import 'sass/fonts/fonts';
 
 body, html {
 	background-color: $bg-color;
+	font-family: $krub-font;
 }
 
 h1{
 	color: $h1-color;
 }
 
-li{
-	background-color: tint(#6ecaa6, 40%);
-}
