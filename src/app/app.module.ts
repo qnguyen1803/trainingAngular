@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ChangeColorDirective } from './directives/change-color.directive';
+import { CapitalisePipe } from './capitalise.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    ChangeColorDirective
+    ChangeColorDirective,
+    CapitalisePipe
   ],
   imports: [
     BrowserModule,

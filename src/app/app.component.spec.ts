@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ChangeColorDirective } from './directives/change-color.directive';
+import { CapitalisePipe } from './capitalise.pipe';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -15,7 +16,8 @@ describe('AppComponent', () => {
         AppComponent,
         HeaderComponent,
         FooterComponent,
-        ChangeColorDirective
+        ChangeColorDirective,
+        CapitalisePipe
       ],
     }).compileComponents();
   }));
