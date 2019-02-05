@@ -5,8 +5,6 @@
 body, html {
 	background-color: $bg-color;
 	font-family: $krub-font;
-}
-
-h1{
-	color: $h1-color;
+	width: 100vw;
+	height: 100vw;
 }
