@@ -2,13 +2,16 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DashboardComponent } from './dashboard.component';
 
+import { GridsterModule } from 'angular-gridster2';
+
 describe('DashboardComponent', () => {
   let component: DashboardComponent;
   let fixture: ComponentFixture<DashboardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DashboardComponent ]
+      declarations: [ DashboardComponent ],
+      imports: [GridsterModule]
     })
     .compileComponents();
   }));
