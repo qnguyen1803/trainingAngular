@@ -8,3 +8,38 @@ body, html {
 	width: 100vw;
 	height: 100vw;
 }
+
+.bg-primary{
+	background-color: $blue-primary;
+}
+
+.bg-secondary{
+	background: $blue-secondary;
+}
+
+.bg-success{
+	background: $green;
+}
+
+.bg-danger{
+	background: $red;
+}
+
+.bg-warning{
+	background: $yellow;
+}
+
+.bg-info{
+	background: $blue-default;
+}
+
+.bg-light{
+	background: $color-lignt;
+}
+
+.bg-dark{
+	background: $color-dark;
+}
+
+
+
